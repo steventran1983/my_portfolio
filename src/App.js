@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Header from "./component/Header";
+import About from "./component/about/About";
 import Home from "./component/home/Home";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
 			<Header />
 			<main className="main">
 				<Home />
+				<About />
 			</main>
 		</>
 	);

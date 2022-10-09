@@ -10,7 +10,6 @@ const Home = () => {
 			<div className="home__container container grid">
 				<div className="home__content grid">
 					<Social />
-
 					<Descripsion />
 					<div className="home__image">
 						<img
