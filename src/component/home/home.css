@@ -3,20 +3,20 @@
     justify-content: space-around;
     padding-top: 5.5rem;
     align-items: center;
-    flex: 1;
+    flex-wrap: wrap;
 }
 
-.home__social{
-    flex:0.5
+/* .home__social{
+    flex-basis: 10%;
 }
 
 .home__desc{
-    flex: 2.5;
+    flex-basis: 50%;
 }
 
 .home__image{
-    flex:1.5
-}
+    flex-basis: 33%;
+} */
 
 
 .home__social{
@@ -72,5 +72,70 @@
 
 .home__image-profile{
     border-radius: 50%;
-    border: 2px solid home__image-profile
+    border: 3px solid var(--text-color);
+    width: 300px;
+    height: 300px;
+}
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+
+    .home__hand{
+        width: 25px;
+        height: 25px;
+    }
+    .home__subtitle{
+        padding-left: 3.75rem;
+        margin-bottom: var(--mb-1);
+    }
+
+    .home__subtitle::before{
+        width: 42px;
+        top:0.8rem
+    }
+
+    .home__image-profile {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .home__img{
+        order:initial;
+        justify-self: initial;
+    }
+    .home__image-profile {
+        width: 250px;
+        height: 250px;
+    }
+    .home__image-profile {
+        width: 200px;
+        height: 200px;
+        }
+        .home__desc {
+            order:1;
+            flex-basis: 100%;
+        }
+    
+        .home__image {
+            order: 0;
+        }
+    
+        
+}
+
+
+@media screen and (max-width: 350px) {
+    .home__content {
+            flex-direction: column-reverse;
+        }
+    .home__social{
+        flex-direction: row;
+        justify-content: space-around;
+        justify-items: center;
+    }
 }
