@@ -2,6 +2,7 @@ import React from "react";
 import Social from "./Social";
 import avartar from "../../assets/profile_img.JPG";
 import Descripsion from "./Descripsion";
+import Scroll from "./Scroll";
 import "./home.css";
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
 						></img>
 					</div>
 				</div>
+				<Scroll />
 			</div>
 		</section>
 	);

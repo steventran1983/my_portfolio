@@ -1,0 +1,131 @@
+.about__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2.5rem;
+}
+
+.about__image{
+    width: 350px;
+    border-radius: 1rem;
+    justify-self: center;
+}
+
+.about__info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--mb-2);
+    
+}
+
+.about__box{
+    background-color: var(--container-color);
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 0.5rem ;
+    /* text-align: center; */
+    padding: 1rem 1.25rem;
+    width: 180px;
+}
+
+.about__icon{
+    font-size: 1.5rem;
+    color:var(--title-color);
+    margin-bottom: var(--mb-1);
+}
+
+.about__icon--star{
+    color:#EBA352
+}
+
+.about__title{
+    font-size: var(--smal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.about__subtitle{
+    font-size:var(--tiny-font-size)
+}
+
+.about__description{
+    padding: 0 4rem 0 0 ;
+    margin-bottom: var(--mb-2-5);
+}
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+.about__image {
+        width: 300px;
+    }
+
+.about__box {
+    width: 150px;
+    
+}
+
+.about__description {
+    padding: 0 2rem 0 0;
+    margin-bottom: var(--mb-1-5);
+}
+
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    
+    .about__container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+           
+        }
+    .about__box {
+        width: 160px;
+
+    }
+    .about__info {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .about__data {
+        text-align: center;
+    }
+  
+}
+
+@media screen and (max-width: 576px) {
+    .about__info {
+        justify-content: space-between;
+            flex-wrap: wrap;
+            row-gap: 1rem;
+    
+        }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+    .about__info {
+            flex-direction: column;
+            align-items: center;
+            row-gap: 1rem;
+    
+        }
+        .about__box {
+            width: 100%;
+            text-align: center;
+    
+        }
+
+    .about__data{
+        text-align: center;
+    }
+
+    .about__description {
+        padding: 0 0 0 0;
+        text-align: center;
+    }
+}
