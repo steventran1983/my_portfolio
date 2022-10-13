@@ -2,8 +2,12 @@ import React from "react";
 import "./services.css";
 import ServiceContent from "./ServiceContent";
 import { serviceIcon } from "./servicesData";
+import { useGlobalContext } from "../context/context";
+import Modal from "./Modal";
 
 const Services = () => {
+	const data = useGlobalContext();
+	console.log(data);
 	const { fe, be, fus } = serviceIcon;
 	const frontEnd = {
 		tech: "Frontend",
@@ -27,6 +31,7 @@ const Services = () => {
 				<ServiceContent data={backEnd} />
 				<ServiceContent data={fullStack} />
 			</div>
+			<Modal />
 		</section>
 	);
 };

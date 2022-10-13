@@ -1,8 +1,8 @@
 import React from "react";
 // import { FaBeer } from "react-icons/fa";
-
+import { useGlobalContext } from "../context/context";
 const ServiceContent = ({ data }) => {
-	console.log(data);
+	const { openModal } = useGlobalContext();
 	const { tech, icons } = data;
 	console.log(icons);
 	return (
@@ -15,7 +15,10 @@ const ServiceContent = ({ data }) => {
 			<h3 className="services__title">
 				{tech} <br></br> Developer
 			</h3>
-			<span className="services__button">
+			<span
+				className="services__button"
+				onClick={() => openModal({ name: "Thang" })}
+			>
 				View More
 				<i class="uil uil-arrow-right services__button--icon"></i>
 			</span>
