@@ -6,8 +6,7 @@ import { useGlobalContext } from "../context/context";
 import Modal from "./Modal";
 
 const Services = () => {
-	const data = useGlobalContext();
-	console.log(data);
+	const {isModalOpen} = useGlobalContext()
 	const { fe, be, fus } = serviceIcon;
 	const frontEnd = {
 		tech: "Frontend",
