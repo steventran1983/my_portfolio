@@ -1,6 +1,6 @@
 import React from "react";
 
-export const QualificationLeft = () => {
+const QualificationContentEducation = ({ data }) => {
 	const left1 = data[0];
 	const left3 = data[1];
 	const right2 = data[2];
@@ -45,7 +45,7 @@ export const QualificationLeft = () => {
 					</div>
 				</div>
 			</div>
-			<div className="qualification__data">
+			<div className="qualification__data data-left">
 				<div>
 					<h3 className="qualification__title">{left3.position}</h3>
 					<i class="uil uil-building"></i>
@@ -84,3 +84,5 @@ export const QualificationLeft = () => {
 		</div>
 	);
 };
+
+export default QualificationContentEducation;
