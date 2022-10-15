@@ -5,11 +5,9 @@ import About from "./component/about/About";
 import Home from "./component/home/Home";
 import Skills from "./component/skills/Skills";
 import Services from "./component/services/Services";
-import {useGlobalContext} from "./component/context/context"
+import Qualification from "./component/qualification/Qualification";
 
 function App() {
-	const data = useGlobalContext()
-	console.log(data)
 	return (
 		<>
 			<Header />
@@ -18,6 +16,7 @@ function App() {
 				<About />
 				<Skills />
 				<Services />
+				<Qualification />
 			</main>
 		</>
 	);

@@ -64,8 +64,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 0.3s;
+    /* transition: 0.3s */
+    animation: fadeIn ease 0.5s;
 
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 
 .services__modal-content{
@@ -74,6 +84,16 @@
     background-color: var(--container-color);
     padding: 4.5rem 2.5rem 2.5rem;
     border-radius: 1.5rem;
+    animation: growth ease 0.5s;
+}
+
+@keyframes growth{
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(1);
+    }
 }
 
 .services__modal-close{
