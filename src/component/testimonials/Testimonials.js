@@ -30,7 +30,7 @@ const Testimonials = () => {
 					},
 					768: {
 						slidesPerView: 2,
-						spaceBetween: 48,
+						spaceBetween: 50,
 					},
 				}}
 				modules={[Pagination]}
@@ -48,7 +48,7 @@ const Testimonials = () => {
 							{description}
 						</p>
 					</SwiperSlide>
-				))}
+				))} 
 			</Swiper>
 		</div>
 	);
