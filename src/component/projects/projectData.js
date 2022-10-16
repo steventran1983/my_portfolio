@@ -36,25 +36,25 @@ export const proProject = [
 
 export const sideProject = [
 	{
-		id: "1",
-		image: workImg1,
+		id: "5",
+		image: workImg5,
 		title: "Portfolio",
 		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequuntur impedit modi sint praesentium voluptat",
 	},
 	{
-		id: "2",
+		id: "6",
 		image: workImg6,
 		title: "Web Standard",
 		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequuntur impedit modi sint praesentium volup",
 	},
 	{
-		id: "3",
+		id: "7",
 		image: workImg7,
 		title: "Ecomerce App",
 		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequuntur impedit modi sint praesentium volup",
 	},
 	{
-		id: "4",
+		id: "8",
 		image: workImg8,
 		title: "Socail App",
 		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequuntur impedit modi sint praesentium volup",
