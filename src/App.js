@@ -8,6 +8,9 @@ import Services from "./component/services/Services";
 import Qualification from "./component/qualification/Qualification";
 import Projects from "./component/projects/Projects";
 import Testimonials from "./component/testimonials/Testimonials";
+import Contact from "./component/contact/Contact";
+import Footer from "./component/footer/Footer";
+
 function App() {
 	return (
 		<>
@@ -18,9 +21,11 @@ function App() {
 				<Skills />
 				<Services />
 				<Qualification />
-				<Projects/>
+				<Projects />
 				<Testimonials />
+				<Contact />
 			</main>
+			<Footer />
 		</>
 	);
 }
