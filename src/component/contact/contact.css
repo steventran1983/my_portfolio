@@ -120,3 +120,22 @@
 .contact__form-area textarea{
     resize: none;
 }
+
+
+
+@media screen and (max-width: 576px) {
+    .contact__data-container {
+    padding: 1rem;
+    width: 300px;
+}
+
+}
+
+
+@media screen and (max-width: 390px) {
+
+.contact__content{
+    text-align: center;
+}
+
+}

@@ -69,3 +69,10 @@
 .footer__link:hoover {
     color: var(--title-color-dark);
 }
+
+
+@media screen and (max-width: 350px) {
+    .footer__list{
+        padding: 0.5rem;
+    }
+}

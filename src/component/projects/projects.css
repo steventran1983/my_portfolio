@@ -76,3 +76,46 @@
 .project__demo-icon{
     font-size: 1rem;
 }
+
+
+
+@media screen and (max-width: 576px) {
+    .projects__tab {
+   
+    justify-content: center;
+
+}
+
+.projects__button {
+    font-size: var(--small-font-size);
+    cursor: pointer;
+    text-align: center;
+    padding:0.5rem;
+    border-radius: 0.5rem;
+    width: 120px;
+}
+
+.projects__image{
+    border-radius: 0.5rem;
+    margin-bottom: var(--mb-2);
+}
+
+.projects__card{
+    max-width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1.5rem;
+    background-color: var(--container-color);
+
+}
+
+
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+ 
+.qualification__data{
+        column-gap: .5rem;
+    }
+
+}

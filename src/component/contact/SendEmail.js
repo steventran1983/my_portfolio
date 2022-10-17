@@ -49,7 +49,7 @@ const SendEmail = () => {
 				</div>
 			</form>
 
-			<a href="#contact" className="button button--flex">
+			<a href="#contact" className="button button--flex contact__mail-button">
 				Send Mail
 				<svg
 					class="button__icon"

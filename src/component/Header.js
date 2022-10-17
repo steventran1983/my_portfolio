@@ -3,7 +3,6 @@ import "./header.css";
 import { navList } from "./data";
 
 const Header = () => {
-	console.log(navList);
 	const [value, setValue] = useState(0);
 	const [showMenu, setShowMenu] = useState(false);
 
@@ -32,7 +31,7 @@ const Header = () => {
 										href={link}
 										className={`${
 											value === index
-												? "nav__link active"
+												? "nav__link_active"
 												: "nav__link"
 										}`}
 									>

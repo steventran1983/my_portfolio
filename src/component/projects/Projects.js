@@ -38,7 +38,7 @@ const Projects = () => {
 						Professional
 					</div>
 					<div className="projects__button" onClick={handleSide}>
-						Side Work
+						Addititonal
 					</div>
 				</div>
 				<div className="projects__sections">

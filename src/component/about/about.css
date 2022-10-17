@@ -47,7 +47,6 @@
 }
 
 .about__description{
-    padding: 0 4rem 0 0 ;
     margin-bottom: var(--mb-2-5);
 }
 
@@ -128,4 +127,13 @@
         padding: 0 0 0 0;
         text-align: center;
     }
+}
+
+
+@media screen and (max-width: 390px) {
+
+.contact__content{
+    text-align: center;
+}
+
 }

@@ -57,10 +57,12 @@ const Descripsion = () => {
 			</h1>
 			<h3 className="home__subtitle">Full Stack Web Developer</h3>
 			<p className="home__description">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-				praesentium modi quam consequuntur veritatis quae similique ab
-				quia. Id repellendus ut alias quis laboriosam aliquam amet, est
-				ullam hic suscipit!
+				I am passionate full-stack engineer with 3+ years of hands-on
+				experience in developing and implementing websites, applications
+				and solutions using a wide range of front-end and back end
+				skills. Looking to further enhance HTML5,CSS3 MERN/MEAN stack
+				and hands-on technical expertise in a challenging role as a
+				Full-stack Developer.
 			</p>
 			<a href="#contact" className="button button--flex">
 				Hello There !
