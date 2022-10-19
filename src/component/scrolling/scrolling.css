@@ -1,0 +1,48 @@
+.scrolling__container{
+    position: fixed;
+    right: 2.5rem;
+    bottom: 3rem;
+    background-color: var(--title-color);
+    opacity: 0.8;
+    width: 3rem;
+    text-align: center;
+    align-items: center;
+    border-radius: 0.3rem;
+    z-index: var(--z-tooltip);
+    transition: 1s ease;
+}
+
+
+.scrooling__arrow{
+    font-size: 2rem;
+    color: var(--container-color);
+    padding: 0.3rem 0.5rem;
+
+}
+
+
+.scrolling__container:hover{
+    background-color: var(--title-color-dark);
+}
+
+
+
+.show_scroll{
+    bottom: 3rem;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .scrolling__container {
+            bottom: 6rem;
+            right:1.5rem
+        }
+}
+
+@media screen and (max-width: 390px) {
+
+    .scrolling__container{
+        bottom: 5rem;
+    }
+}

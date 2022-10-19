@@ -10,6 +10,7 @@ import Projects from "./component/projects/Projects";
 import Testimonials from "./component/testimonials/Testimonials";
 import Contact from "./component/contact/Contact";
 import Footer from "./component/footer/Footer";
+import Scrolling from "./component/scrolling/Scrolling";
 
 function App() {
 	return (
@@ -26,6 +27,7 @@ function App() {
 				<Contact />
 			</main>
 			<Footer />
+			<Scrolling/>
 		</>
 	);
 }
