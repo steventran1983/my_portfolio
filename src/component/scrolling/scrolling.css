@@ -9,9 +9,20 @@
     align-items: center;
     border-radius: 0.3rem;
     z-index: var(--z-tooltip);
-    transition: 1s ease;
+    animation: showOpacity 1s ;
 }
 
+
+@keyframes showOpacity{
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+    
+}
 
 .scrooling__arrow{
     font-size: 2rem;

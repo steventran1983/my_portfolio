@@ -5,8 +5,8 @@ import { proProject, sideProject, allProject } from "./projectData";
 import { useState } from "react";
 
 const Projects = () => {
-	const [allOpen, setAllOpen] = useState(true);
-	const [profecssionalOpen, setProfessionalOpen] = useState(false);
+	const [allOpen, setAllOpen] = useState(false);
+	const [profecssionalOpen, setProfessionalOpen] = useState(true);
 	const [sideOpen, setSideOpen] = useState(false);
 
 	const handleOpen = () => {
@@ -31,14 +31,35 @@ const Projects = () => {
 			<span className="section__subtitle">My standout projects</span>
 			<div className="projects__conainer container">
 				<div className="projects__tab">
-					<div className="projects__button " onClick={handleOpen}>
-						All
-					</div>
-					<div className="projects__button " onClick={handlePro}>
+					<div
+						className={`${
+							profecssionalOpen
+								? "projects__button button-active"
+								: "projects__button"
+						}`}
+						onClick={handlePro}
+					>
 						Professional
 					</div>
-					<div className="projects__button" onClick={handleSide}>
-						Addititonal
+					<div
+						className={`${
+							sideOpen
+								? "projects__button button-active"
+								: "projects__button"
+						}`}
+						onClick={handleSide}
+					>
+						Individual
+					</div>
+					<div
+						className={`${
+							allOpen
+								? "projects__button button-active"
+								: "projects__button"
+						}`}
+						onClick={handleOpen}
+					>
+						All
 					</div>
 				</div>
 				<div className="projects__sections">

@@ -6,6 +6,7 @@ import "./qualification.css";
 
 const Qualification = () => {
 	const [empStatus, setEmpStatus] = useState(true);
+	// const [career, setCareer] = useStae(true)
 	return (
 		<div className="qualification section" id="#qualification">
 			<h2 className="section__title">Qualification</h2>
@@ -13,14 +14,22 @@ const Qualification = () => {
 			<div className="qualification__container container">
 				<div className="qualification__tab">
 					<div
-						className="qualification__button button--flex"
+						className={`${
+							empStatus
+								? "qualification__button button--flex button--active"
+								: "qualification__button button--flex"
+						}`}
 						onClick={() => setEmpStatus(true)}
 					>
 						<i class="bx bxs-briefcase-alt-2 qualification__icon"></i>
 						Carrer
 					</div>
 					<div
-						className="qualification__button button--flex"
+						className={`${
+							empStatus
+								? "qualification__button button--flex "
+								: "qualification__button button--flex button--active"
+						}`}
 						onClick={() => setEmpStatus(false)}
 					>
 						<i class="bx bxs-graduation qualification-active qualification__icon"></i>

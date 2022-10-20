@@ -2,6 +2,21 @@
     max-width: 768px;;
 }
 
+
+.qualification__conent{
+    animation: fadeIn 0.25s ease;
+}
+
+@keyframes fadeIn{
+    0%{
+        transform: scale(0.8);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
+
 .qualification__tab{
     display:flex;
     justify-content: center;
@@ -17,6 +32,8 @@
     
 }
 
+
+.button--active,
 .qualification__button:hover{
     color: var(--title-color-dark);
 }

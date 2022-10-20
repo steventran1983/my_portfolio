@@ -27,11 +27,12 @@
     width: 180px;
     padding:1rem;
     border-radius: 1rem;
+    transition: all 0.25s ;
 }
 
 
 
-.project__button-active, .projects__button:hover {
+.button-active, .projects__button:hover {
     color: var(--container-color);
     background-color: var(--title-color);
 }
@@ -41,8 +42,14 @@
     justify-content: space-around;
     flex-wrap: wrap;
     row-gap: 1rem;
-    ;
+    animation: showContent linear 0.2s ;
 
+}
+
+@keyframes showContent {
+    0% { transform:  scale(0.9);}
+    100% {transform: scale(1);}
+    
 }
 
 .projects__card{

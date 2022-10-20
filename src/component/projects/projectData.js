@@ -11,7 +11,7 @@ export const proProject = [
 	{
 		id: "1",
 		image: workImg1,
-		title: "NetAct SSO",
+		title: "NetAct Single Sign On",
 		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequuntur impedit modi sint praesentium voluptatum, sit error. Voluptatum nesciunt eligendi incidunt aliquid tenetu",
 	},
 	{
@@ -23,13 +23,13 @@ export const proProject = [
 	{
 		id: "3",
 		image: workImg3,
-		title: "NetAct SSO",
+		title: "User Clean Up Automation",
 		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequuntur impedit modi sint praesentium volup",
 	},
 	{
 		id: "4",
 		image: workImg4,
-		title: "NetAct SSO",
+		title: "Alarm API Post Check",
 		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequuntur impedit modi sint praesentium volup",
 	},
 ];
@@ -44,7 +44,7 @@ export const sideProject = [
 	{
 		id: "6",
 		image: workImg6,
-		title: "Web Standard",
+		title: "Hotel Booking",
 		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequuntur impedit modi sint praesentium volup",
 	},
 	{
@@ -65,7 +65,7 @@ export const allProject = [
 	{
 		id: "1",
 		image: workImg1,
-		title: "NetAct SSO",
+		title: "NetAct Single Sign On",
 		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequuntur impedit modi sint praesentium voluptat",
 	},
 	{
@@ -77,13 +77,13 @@ export const allProject = [
 	{
 		id: "3",
 		image: workImg3,
-		title: "NetAct SSO",
+		title: "User Clean Up Automation",
 		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequuntur impedit modi sint praesentium volup",
 	},
 	{
 		id: "4",
 		image: workImg4,
-		title: "NetAct SSO",
+		title: "Alarm API Post Check",
 		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequuntur impedit modi sint praesentium volup",
 	},
 	{
