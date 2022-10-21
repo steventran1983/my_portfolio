@@ -25,14 +25,20 @@ export const contactInfo = [
 export const contactForm = [
 	{
 		label: "Name",
-		placeholder: "Insert your email",
+		placeholder: "Insert your name",
 	},
 	{
 		label: "Mail",
-		placeholder: "Insert your phone number",
+		placeholder: "Insert your email address",
 	},
 	{
 		label: "Project",
 		placeholder: "Introduce your project",
 	},
 ];
+
+export const key = {
+	publicId: "eCNZ_i_mVDL8zUs-E",
+	emailId: "template_u1vjoir",
+	serviceID: "service_ssmohdm",
+};
