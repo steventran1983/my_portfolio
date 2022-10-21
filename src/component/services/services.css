@@ -65,16 +65,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* transition: 0.3s */
-    animation: fadeIn ease 0.5s;
+    transition: all linear 0.25s; 
+    animation: fadeIn 0.25s;
 
 }
 
 @keyframes fadeIn {
-    from{
+    0%{
         opacity: 0;
     }
-    to{
+    100%{
         opacity: 1;
     }
 }
@@ -85,7 +85,7 @@
     background-color: var(--container-color);
     padding: 4.5rem 2.5rem 2.5rem;
     border-radius: 1.5rem;
-    animation: growth ease 0.5s;
+    animation: growth ease 0.25s;
 }
 
 @keyframes growth{

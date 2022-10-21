@@ -92,12 +92,37 @@
 
 }
 
-.home__scroll--arrow{
+
+.home__scroll--arrow {
     color: var(--title-color);
     font-size: 1.25rem;
     font-weight: var(--font-medium);
+    animation: moveDown 1s linear infinite;
 }
 
+.home__scroll-arrow{
+    display: inline-block;
+    animation: moveDown 1s linear infinite;
+}
+
+.home__scroll-arrow::before{
+    content: "";
+    /* padding-top: 0.025rem; */
+    /* position: absolute; */
+    animation: moveDown 1s linear infinite;
+}
+
+
+
+@keyframes moveDown {
+  0%{
+    transform:translateY(0);
+  }
+
+  100%{
+    transform: translateY(0.25rem);
+  }
+}
 
 .home__sroll--mouse {
     color: var(--title-color);

@@ -2,10 +2,10 @@ import workImg1 from "../../assets/work1.jpg";
 import workImg2 from "../../assets/work2.jpg";
 import workImg3 from "../../assets/work3.jpg";
 import workImg4 from "../../assets/work4.jpg";
-import workImg5 from "../../assets/work1.jpg";
-import workImg6 from "../../assets/work2.jpg";
-import workImg7 from "../../assets/work3.jpg";
-import workImg8 from "../../assets/work4.jpg";
+import workImg5 from "../../assets/work5.jpg";
+import workImg6 from "../../assets/work6.jpg";
+import workImg7 from "../../assets/work7.jpg";
+import workImg8 from "../../assets/work8.jpg";
 
 export const proProject = [
 	{
@@ -88,7 +88,7 @@ export const allProject = [
 	},
 	{
 		id: "5",
-		image: workImg1,
+		image: workImg5,
 		title: "Portfolio",
 		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequuntur impedit modi sint praesentium voluptatum, sit error. Voluptatum nesciunt eligendi incidunt aliquid tenetur",
 	},
@@ -107,7 +107,7 @@ export const allProject = [
 	{
 		id: "8",
 		image: workImg8,
-		title: "Socail App",
+		title: "Social App",
 		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequuntur impedit modi sint praesentium volup",
 	},
 ];
