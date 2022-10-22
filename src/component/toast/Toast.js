@@ -1,7 +1,8 @@
 import React from "react";
 import "./toast.css";
 
-const Toast = () => {
+const Toast = ({ data }) => {
+	
 	return (
 		<div className="Toast__container">
 			<div className="toast__icon ">
@@ -10,11 +11,14 @@ const Toast = () => {
 			<div className="toast__body">
 				<h3 className="toast__body--header">Success</h3>
 				<p className="toast__body-content">
-					Thank you for your email, I will contact later
+					Thank you , I will contact later
 				</p>
 			</div>
 			<div className="toast__close-button">
-				<i class="bx bx-x-circle toast__icon-end"></i>
+				<i
+					class="bx bx-x-circle toast__icon-end"
+					onClick={() => data(false)}
+				></i>
 			</div>
 		</div>
 	);

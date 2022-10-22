@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { contactForm } from "./contactData";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
@@ -8,6 +8,18 @@ import "./contact.css";
 
 const SendEmail = () => {
 	const [showToast, setShowToast] = useState(true);
+	const handleShowToast = () => {
+		setTimeout(() => {
+			setShowToast(true);
+		}, 2000);
+	};
+
+	useEffect(() => {
+		setTimeout(() => {
+			setShowToast(false);
+		}, 3000);
+	});
+
 	// Send Email API
 	const form = useRef();
 
@@ -77,7 +89,10 @@ const SendEmail = () => {
 						placeholder={project.placeholder}
 					></textarea>
 				</div>
-				<button className="button button--flex contact__mail-button">
+				<button
+					className="button button--flex contact__mail-button"
+					onClick={handleShowToast}
+				>
 					Send Mail
 					<svg
 						class="button__icon"
@@ -98,7 +113,7 @@ const SendEmail = () => {
 					</svg>
 				</button>
 			</form>
-			{showToast === true && <Toast />}
+			{showToast === true && <Toast data={setShowToast} />}
 		</div>
 	);
 };

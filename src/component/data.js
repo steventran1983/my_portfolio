@@ -20,8 +20,8 @@ export const navList = [
 		icon: "uil uil-estate nav__icon",
 	},
 	{
-		title: "Porfolio",
-		link: "#porfolio",
+		title: "Projects",
+		link: "#project",
 		icon: "uil uil-estate nav__icon",
 	},
 	{
