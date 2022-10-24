@@ -7,7 +7,7 @@ import Toast from "../toast/Toast";
 import "./contact.css";
 
 const SendEmail = () => {
-	const [showToast, setShowToast] = useState(true);
+	const [showToast, setShowToast] = useState(false);
 	const handleShowToast = () => {
 		setTimeout(() => {
 			setShowToast(true);
