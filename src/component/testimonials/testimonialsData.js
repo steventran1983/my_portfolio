@@ -11,41 +11,41 @@ export const Data = [
 		image: Image1,
 		title: "William Hood",
 		description:
-			"A really good job, all aspects of the project were followed step by step and with good results.",
+			"In the end, even though he had lots of other work/meetings to attend to, Steven still spent time and his skills to fix this issue very quickly and ensured that he provided the best service",
 	},
 	{
 		id: 2,
 		image: Image2,
 		title: "Harry Clinton",
 		description:
-			"A really good job, all aspects of the project were followed step by step and with good results.",
+			"It was a lot of work for Thang and I am Very Grateful Thang took the time and put in the effort to resolve my access issue with Nokia OSS Completely",
 	},
 	{
 		id: 6,
 		image: Image6,
 		title: "Ethan Clark",
 		description:
-			"A really good job, all aspects of the project were followed step by step and with good results.",
+			"all aspects of the project were followed step by step and with good results.Much appreciation to Steven, while on vacation, he was willing to jump in a call and help troubleshoot and fix issue ",
 	},
 	{
 		id: 3,
 		image: Image3,
 		title: "Amelia Cill",
 		description:
-			"A really good job, all aspects of the project were followed step by step and with good results.",
+			"I would like to say thank you to Steven for being there for me all the time when I needed help and providing fast support. Without his support I would not be able to do my work. ",
 	},
 	{
 		id: 4,
 		image: Image4,
 		title: "Michelle Lee",
 		description:
-			"A really good job, all aspects of the project were followed step by step and with good results.",
+			"Every time I reached out to you, you never hesitated to jump in even though I know from my heart that you're working on other important stuff.",
 	},
 	{
 		id: 5,
 		image: Image5,
 		title: "Olivia Linsey",
 		description:
-			"A really good job, all aspects of the project were followed step by step and with good results.",
+			"Thang has been a valuable part of the team and is always going above and beyond his work expectations. He has worked countless hours in helping build automation for the team",
 	},
 ];

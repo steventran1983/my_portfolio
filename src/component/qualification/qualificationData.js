@@ -6,17 +6,18 @@ export const employment = [
 		time: "2021 - Present",
 	},
 	{
-		position: "Software Engineer",
-		dept: "Product & Technology",
-		company: "T-Mobile USA",
-		time: "2020 - 2021",
-	},
-	{
 		position: "Engineer Techinical Support",
 		dept: "Technology",
 		company: "T-Mobile USA",
 		time: "2018 - 2020",
 	},
+	{
+		position: "Software Engineer",
+		dept: "Product & Technology",
+		company: "T-Mobile USA",
+		time: "2020 - 2021",
+	},
+
 	{
 		position: "Sr Network Administrator",
 		dept: "ADSL FTTH Internet",
@@ -27,25 +28,25 @@ export const employment = [
 
 export const education = [
 	{
-		position: "Master Of Comuter Sicence",
+		position: "Master Of Computer Sicence",
 		gpa: "Technology",
-		company: "T-Mobile USA",
-		time: "2021 - Present",
+		company: "Colorado Technical University ",
+		time: "2018 - 2020",
+	},
+	{
+		position: "Assossiate of science",
+		gpa: "Technology",
+		company: "Tarrant County College",
+		time: "2012 - 2015",
 	},
 	{
 		position: "Bachelor of Computer Science",
 		dept: "Product & Technology",
-		company: "T-Mobile USA",
-		time: "2020 - 2021",
+		company: "University of Texas Arlington",
+		time: "2014 - 2018",
 	},
 	{
-		position: "Engineer Techinical Support",
-		gpa: "Technology",
-		company: "T-Mobile USA",
-		time: "2018 - 2020",
-	},
-	{
-		position: "Bachalor Of Network Engineer",
+		position: "Bachelor Of Network Engineer",
 		gpa: "3.5",
 		company: "University of Danang",
 		time: "2008 - 2021",

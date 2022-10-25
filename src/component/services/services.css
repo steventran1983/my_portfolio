@@ -65,8 +65,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all linear 0.25s; 
-    animation: fadeIn 0.25s;
+    /* transition: all linear 0.25s;  */
+    animation: fadeIn 0.1s;
 
 }
 
@@ -80,17 +80,17 @@
 }
 
 .services__modal-content{
-    width: 500px;
+    width: 600px;
     position: relative;
     background-color: var(--container-color);
     padding: 4.5rem 2.5rem 2.5rem;
     border-radius: 1.5rem;
-    animation: growth ease 0.25s;
+    animation: growth ease 0.5s;
 }
 
 @keyframes growth{
     from{
-        transform: scale(0.5);
+        transform: scale(0.75);
     }
     to{
         transform: scale(1);
@@ -146,13 +146,25 @@
 }
 
 @media screen and (max-width: 576px) {
+.services__modal-content {
+        width: 90%;
+
+    }
+
     .services__content{
     width: 100%;
   }
 }
 
 /* For small devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 390px) {
+    .service__modal-service{
+        font-size: var(--tiny-font-size);
+    }
+    .services__modal-content {
+            width: 90%;
+           
+        }
   .services__content{
     width: 100%;
   }
